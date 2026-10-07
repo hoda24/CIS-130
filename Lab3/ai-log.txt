@@ -1,0 +1,57 @@
+
+
+The AI tool you used: I'm using ChatGPT AI tool for this lab. 
+
+Your first website-building prompt:
+
+ "I am a beginner CIS-130 student practicing HTML and CSS. Help me create a two-page
+website about a topic I choose. Use only HTML and CSS. I need semantic HTML, one
+external stylesheet, relative links, an image with useful alt text, lists, an external link, a
+class, an ID, a descendant selector, link pseudo-classes, relative and absolute CSS units,
+float and clear, and one CSS custom property. Do not use JavaScript, Bootstrap, Tailwind,
+or inline CSS. First give me only a file/folder plan and a checklist. Do not generate the
+code yet."
+ 
+
+A revised prompt showing the adaptive part of CLEAR:
+
+"Explain this to me:
+<nav>
+<a herf="index.html">Home</a>
+<a herf="details.html>"Max Verstappen</a>
+</nav>"
+
+One debugging or code-review prompt: 
+
+Review the following HTML for incorrect tags. Identify the most likely issue, 
+explain why it could cause a problem, and show only the smallest change needed 
+to fix it. Do not rewrite the whole section.
+HTML:
+<section>
+    <h2>My Top Three F1 Drivers</h2>
+
+    <ol>
+        <li><strong><a href="details.html">Max Verstappen</strong></a></li>
+        <li>Kimi Antonelli</li>
+        <li>Lando Norris</li>
+    </ol>
+
+</section>
+
+The AI diagnosis:
+The tags should be properly nested. The smallest fix is:
+
+<li><strong><a href="details.html">Max Verstappen</a></strong></li>
+
+That way, the <a> closes before the <strong> closes.
+
+The AI diagnosis is correct.
+
+
+A short reflection explaining one thing that the AI did well and one thing you had to correct or change:
+
+The thing that the AI did well is creating the initial or the startup code for both the html and the CSS as well. It was 
+exactly as I wanted it, the AI followed the instructions and didn't add anything that wasn't beginner level. For the most 
+part I understood almost everything. One thing that I had to correct and change was the images in the details.html. That 
+gave me a lot of trouble, ChatGPT suggestions for the overall image size and placment didn't work with what I had in mind 
+for the website, I had to change it around until I got it right.

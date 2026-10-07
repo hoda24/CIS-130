@@ -1,0 +1,152 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #702963;
+    --background-color: #F5EAF3;
+}
+
+.content-box {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+    align-items: flex-start;
+
+}
+
+.main-content {
+    flex-basis: 60%;
+    padding-right: 1.5em;
+}
+
+.sidebar {
+    flex-basis: 40%;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+header {
+    padding-bottom: .75em;
+    border-bottom: 2px solid #4b0652;
+}
+
+img {
+    float: right;
+    margin-left: 1em;
+    border: 2px double #4b0652;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+main {
+    clear: left;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, Georgia, sans-serif;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.important {
+    font-weight: bold;
+    color: #4b0652;
+    padding: 10px;
+}
+
+.also {
+    border-bottom: 5px solid #4b0652;
+    padding-bottom: 2em;
+    padding-left: 10px;
+}
+
+
+h1 {
+    color: var(--primary-color);
+    font-size: 200%;
+    background-color: var(--background-color);
+    border-top: 7px solid #4b0652;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+
+h2 {
+    color: #702963;
+    font-size: 150%;
+    padding-left: 10px;
+}
+
+h3 {
+    color: rgb(101, 6, 95);
+}
+
+p {
+    padding-left: 10px;
+}
+
+header p {
+    padding-left: 10px;
+}
+
+
+li:first-child {
+    font-weight: bold;
+}
+
+
+a:link {
+    color: rgb(128, 22, 114);
+}
+
+a:visited {
+    color: rgb(128, 22, 114);                      
+}
+
+a:hover,
+a:focus {
+    color: #da3b9a;
+}
+
+address {
+    padding-left: 10px;
+}
+
+#copyright {
+    font-size: 80%;
+    border-top: 7px solid #45203E;
+    padding-top: 1em;
+    color: rgb(109, 14, 101);
+}
+
+
+footer p {
+    text-align: right;
+    color: rgb(109, 14, 101);
+    font-size: 90%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: var(--background-color);
+    border-radius: 10px;
+}

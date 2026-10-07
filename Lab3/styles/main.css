@@ -1,0 +1,138 @@
+
+
+:root {
+    --primary-color: #380500;
+    --accent-color: #b50600;
+}
+
+html {
+    min-height: 100%;
+    background-image: linear-gradient(to bottom, white 0%, rgb(87, 17, 17) 200%);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #f5e5e3;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+nav {
+    background-color: var(--accent-color);
+    padding: 10px;
+    text-align: center;
+    color: aquamarine;
+}
+
+nav a {
+    margin: 0 10px;
+    font-size: 1em;
+    font-style: normal;
+}
+
+
+a:link {
+    color: #381009;
+}
+
+a:visited {
+    color: rgb(20, 20, 20);
+}
+
+a:hover,
+a:focus {
+    color: #65089f;
+    
+}
+
+a:active {
+    color: rgb(94, 115, 201);
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+main img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-top: .75em;
+    padding-bottom: 2em;
+}
+
+.image {
+    width: 350px;
+    float: right;
+    margin: 0 0 10px 15px;
+}
+
+.image-left {
+    width: 410px;
+    float:left;
+    margin: 0 15px 10px 0;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #8a0b0b;
+    clear: both;
+    background-color: rgb(252, 241, 241);
+}
+
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px; 
+    font-style: normal;
+    color: #e62005;
+    margin: 0;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 30px;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#introduction p {
+    line-height: 1.7;
+}
+
+#copyright {
+    font-size: 80%;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
